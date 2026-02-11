@@ -17,4 +17,26 @@
 # print((midx,midy))
 
 #part b of exp2 command line 
+# import sys
+# if(len(sys.argv))!= 3:
+#     print("addition of 2 arg by using add.py <a> <b>")
+#     sys.exit(1)
+# num1 = int(sys.argv[1])
+# num2 = int(sys.argv[2])
+# result = num1 + num2
+# print(" sum is :" , result)
+
+
+
+
+import sys
+if(len(sys.argv))!= 4:
+    print("addition of 2 arg by using add.py <a> <b>")
+    sys.exit(1)
+num1 = int(sys.argv[1])
+num2 = int(sys.argv[2])
+num3 = int(sys.argv[3])
+result = num1 * num2 * num3
+print(" multi is :" , result)
+
 
